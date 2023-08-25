@@ -3,6 +3,12 @@ package com.farney.cursomcj.domain;
 import java.io.Serializable;
 import java.util.Objects;
 
+/*
+ * Serializable é uma interface 
+ * que transforma a classe pode converter 
+ * seus itens em uma sequencia de bytes
+ * Isso serve para os objetos possom ser gravados em arquivos, trafegar em rede
+*/
 public class Categoria implements Serializable {
 	private static final long serialVersionUID = 1L;
 
